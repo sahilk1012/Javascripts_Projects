@@ -37,6 +37,7 @@ async function checkWeather(city) {
         weatherIcon.src = "./weather-app-img/mist.png";
     }
 }
+
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 })
